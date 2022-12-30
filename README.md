@@ -1,2 +1,2 @@
-# desafios-dio-projetos
+# Desafios DIO
 Desafios e projetos da plataforma DIO
