@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica de saúde mental e bem estar.</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="img/merietacontatenos.png" height="150px" width="100%">
+        </header>
+
+        <div class="menu-content">
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">Sobre nós</a></li>
+                    <li><a href="availability.html">Horários</a></li>
+                    <li><a href="contact.html" class="active">Contato</a></li>
+                </ul>
+            </div>
+            
+            <section class="content">
+                <h2>Contato</h2>
+                <h3>Informações de Contato</h3>
+                <p>Estamos à disposição para atendê-lo. Aqui estão nossas informações de contato:</p>
+                <ul class="outra-lista">
+                    <li><strong>Celular:</strong> (XX) XXXX-XXXX</li>
+                    <li><strong>WhatsApp:</strong> (XX) XXXX-XXXX</li>
+                    <li><strong>Endereço:</strong> Rua da Clínica, 1234, Bairro, Cidade, CEP XXXXX-XXX</li>
+                </ul>
+                
+                <h3>Localização</h3>
+                <p>Veja no mapa a localização da nossa clínica:</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3476.7040020751883!2d-50.87161240448719!3d-29.378954906794807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951932427804321f%3A0xa71c25f081e5aea6!2sGramado%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1697088170892!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Entre em contato conosco preenchendo o formulário abaixo:</p>
+                <fieldset>
+                    <legend>Formulário de Contato</legend>
+                <form action="salvarcontato" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar Formulário</button>
+                </form>
+                </fieldset>
+            </section>
+        </div>
+        
+        <footer class="footer">
+            <p>&copy; 2023 Clínica de Saúde Mental e Bem-Estar. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>

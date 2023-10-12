@@ -1,0 +1,195 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-content {
+    display: flex;
+    flex: 1;
+}
+
+.header {
+    background: linear-gradient(180deg, #87DAC8, #87DAC8); /* Verde */
+    min-height: 150px;
+    padding: 0px;
+    color: #fff;
+}
+.menu {
+    width: 15%;
+    background: linear-gradient(180deg, #d9e8ec, #e6f7ff);
+    padding: 10px 20px 0;
+}
+
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #66cdaa;
+}
+
+.menu a.active {
+    font-weight: bold;
+    color: #66cdaa;
+}
+
+.content {
+    background: #fff;
+    flex: 1;
+    padding: 20px;
+}
+
+.footer {
+    background: linear-gradient(180deg, #EAB318, #EAB318); /* Laranja */
+    min-height: 20px;
+    padding: 1px;
+    color: #fff;
+    text-align: center;
+}
+
+.approach {
+    display: flex;
+    align-items: center;
+}
+
+.approach img {
+    max-height: 150px; 
+}
+
+.approach p {
+    padding-left: 13px;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background: #87DAC8;
+    color: #fff;
+}
+
+tbody tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+tbody tr:hover {
+    background: #e0e0e0;
+}
+
+form {
+    max-width: 400px; 
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+form button[type="submit"] {
+    background-color: #87DAC8; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+form button[type="reset"] {
+    background-color: #f16824; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+}
+fieldset {
+    display: inline-block; 
+    border: 2px solid #87DAC8; 
+    border-radius: 10px; 
+    padding: 20px; 
+    padding-right: 40px;
+}
+
+legend {
+    background-color: #87DAC8; 
+    color: #fff; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.outra-lista {
+    list-style: none; 
+    
+}
+
+.outra-lista li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; 
+    position: relative;
+}
+
+.outra-lista li::before {
+    content: "\2022"; 
+    color: #f16824; 
+    font-size: 16px; 
+    position: absolute; 
+    left: -20px;
+}
+
+.outra-lista a {
+    display: block;
+    text-decoration: none;
+    color: #333; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.outra-lista a:hover {
+    background-color: #f16824;
+    color: #fff; 
+}
